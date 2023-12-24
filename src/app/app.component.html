@@ -1,0 +1,6 @@
+<h1 style="text-align: center;">
+  Welcome to E-Kart
+</h1>
+
+<app-search (searchTextChanged)="setSearchText($event)"></app-search>
+<app-product-list [searchText]="searchText"></app-product-list>
